@@ -1,6 +1,6 @@
 function area_circulo(radio){
     π =3.14159265359;
-    let resultado =radio*2*π;
+    let resultado =radio*radio*π;
  return resultado;
 }
 
