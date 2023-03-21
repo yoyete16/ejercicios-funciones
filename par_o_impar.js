@@ -4,6 +4,10 @@ function esPar(num) {
     } else {
       return "impar";
     }
+  
+  if (esPar(4)){
+    console.log("el numero es par");
+  }else{
+    console.log("el numero es impar");
   }
-  let r = esPar(6);
-  console.log("el numero es " + r );
+}
